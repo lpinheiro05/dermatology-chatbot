@@ -1,0 +1,34 @@
+# Ambiente virtual
+myenv/
+
+# Arquivo de configuração de ambiente
+.env
+
+# Arquivos bytecode compilados
+__pycache__/
+*.py[cod]
+
+# Logs de instalação do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Relatórios de cobertura de testes
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints
+
+# Pastas de builds
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos temporários do sistema
+.DS_Store
