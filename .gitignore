@@ -1,34 +1,47 @@
-# Ambiente virtual
-myenv/
+Arquivos sensíveis
 
-# Arquivo de configuração de ambiente
 .env
 
-# Arquivos bytecode compilados
-__pycache__/
-*.py[cod]
+Ambientes virtuais Python
 
-# Logs de instalação do pip
-pip-log.txt
-pip-delete-this-directory.txt
+myenv/ venv/ *.venv/
 
-# Relatórios de cobertura de testes
-htmlcov/
-.coverage
-.coverage.*
-.cache
+Arquivos bytecode compilados
 
-# Checkpoints do Jupyter Notebook
+pycache/ *.py[cod] *.pyo *.pyd
+
+Logs de instalação do pip
+
+pip-log.txt pip-delete-this-directory.txt
+
+Relatórios de cobertura de testes
+
+htmlcov/ .coverage .coverage.* .cache
+
+Checkpoints do Jupyter Notebook
+
 .ipynb_checkpoints
 
-# Pastas de builds
-build/
-dist/
-*.egg-info/
-*.egg
+Pastas de builds
 
-# Configurações do VS Code
+build/ dist/ *.egg-info/ *.egg
+
+Configurações do VS Code
+
 .vscode/
 
-# Arquivos temporários do sistema
-.DS_Store
+Arquivos temporários do sistema
+
+.DS_Store Thumbs.db *.swp *.swo
+
+Arquivos de cache do Streamlit
+
+.streamlit/ *.log
+
+Arquivos gerados pela aplicação
+
+relatorio_dermatologia.txt
+
+Arquivos temporários
+
+*.tmp *.bak *.backup

@@ -114,8 +114,7 @@ def initialize_model():
 
 
 # Caminho para o arquivo PDF
-pdf_path = "/Users/lucaspinheiro/Documents/VSCodeFiles/Codigos/Langchain_Tests/diagnosticos_dermatologia.pdf"
-
+pdf_path = "diagnosticos_dermatologia.pdf"
 # Carregar dados de diagnóstico
 diagnosis_text = extract_text_from_pdf(pdf_path)
 if not diagnosis_text:
